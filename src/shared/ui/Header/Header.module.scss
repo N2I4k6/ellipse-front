@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background: var(--color-primary);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px var(--color-shadow);
+}
+
+.brand {
+  color: var(--color-on-primary);
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.userSection {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  color: var(--color-on-primary);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.userName {
+  color: var(--color-on-primary);
+  font-size: 16px;
+}
+
+.avatarFallback {
+  background-color: var(--color-avatar-fallback);
+}
+
+@media (max-width: 768px) {
+  .header {
+    border-radius: 0;
+  }
+
+  .brand {
+    font-size: 20px;
+  }
+
+  .userName {
+    font-size: 14px;
+  }
+
+  .icon {
+    font-size: 18px;
+  }
+}

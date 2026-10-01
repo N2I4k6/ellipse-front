@@ -1,0 +1,97 @@
+.container {
+  text-align: center;
+}
+
+.settingsContainer {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: var(--space-lg);
+  background: var(--color-bg-container);
+  border-radius: var(--radius-md);
+  box-shadow: 0 4px 12px var(--color-shadow);
+}
+
+.userSection {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+
+.avatarWrapper {
+  position: relative;
+  cursor: pointer;
+}
+
+.avatarButton {
+  position: relative;
+  display: inline-flex;
+  border-radius: 50%;
+  overflow: hidden;
+
+  &:hover .avatarOverlay {
+    opacity: 1;
+  }
+}
+
+.avatarOverlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.usernameWrapper {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+}
+
+.usernameContainer {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.username {
+  cursor: pointer;
+  color: var(--color-primary);
+  margin: 0;
+}
+
+.editIcon {
+  color: var(--color-primary);
+  font-size: 16px;
+
+  &:hover {
+    color: var(--color-primary-hover);
+  }
+}
+
+.styledInput {
+  max-width: 200px;
+}
+
+.styledSwitch {
+  margin-bottom: var(--space-md);
+}
+
+.styledSelect {
+  width: 100%;
+  margin-bottom: var(--space-md);
+}
+
+.styledButton {
+  margin-bottom: 10px;
+}
+
+.error {
+  width: 100%;
+  font-size: var(--font-size-sm);
+}

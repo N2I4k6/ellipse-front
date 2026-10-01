@@ -1,0 +1,365 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Information",
+    "retry": "Retry",
+    "back": "Back",
+    "next": "Next",
+    "prev": "Previous",
+    "finish": "Finish",
+    "cancel": "Cancel",
+    "close": "Close",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "reset": "Reset",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "notSpecified": "Not specified",
+    "noData": "No data",
+    "goBack": "Go back",
+    "loadingFailed": "Failed to load",
+    "present": "present"
+  },
+
+  "nav": {
+    "statistics": "Statistics",
+    "companies": "Companies",
+    "study": "Study",
+    "coverLetter": "Cover Letter",
+    "calendar": "Calendar",
+    "resume": "Resume",
+    "notifications": "Notifications",
+    "messages": "Messages",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+
+  "auth": {
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "username": "Username",
+    "usernamePlaceholder": "Enter your username",
+    "position": "Position",
+    "positionPlaceholder": "Select a position",
+    "login": {
+      "title": "Sign in",
+      "submit": "Sign in",
+      "noAccount": "Don't have an account?",
+      "linkToRegister": "Sign up"
+    },
+    "register": {
+      "title": "Sign up",
+      "submit": "Sign up",
+      "haveAccount": "Already have an account?",
+      "linkToLogin": "Sign in"
+    },
+    "logout": {
+      "confirm": "Are you sure you want to log out?"
+    }
+  },
+
+  "validation": {
+    "emailInvalid": "Invalid email",
+    "emailRequired": "Email is required",
+    "passwordRequired": "Password is required",
+    "passwordMin": "Password must be at least {{min}} characters",
+    "usernameRequired": "Username is required",
+    "usernameMin": "Username must be at least {{min}} characters",
+    "positionRequired": "Select a position",
+    "required": "This field is required",
+    "companyNameRequired": "Company name is required",
+    "telegramRequired": "Telegram contact is required",
+    "stageRequired": "Stage is required",
+    "dateTimeRequired": "Date and time are required",
+    "stageDateRequired": "Stage date is required",
+    "urlInvalid": "Invalid URL",
+    "urlRequired": "URL is required",
+    "resumeRequired": "Resume is required",
+    "companyRequired": "Company is required",
+    "startDateRequired": "Start date is required",
+    "startYearRequired": "Start year is required",
+    "endYearRequired": "End year is required",
+    "institutionRequired": "Institution is required",
+    "specialtyRequired": "Specialty is required",
+    "invalidDate": "Invalid date",
+    "statusRequired": "Status is required"
+  },
+
+  "onboarding": {
+    "welcome": {
+      "title": "Welcome to ELLIPSE",
+      "description": "This app will help you with your job search"
+    },
+    "statistics": {
+      "title": "Statistics",
+      "description": "Track your progress! Compare weekly responses, follow completed tests and stages — from interviews to offers!"
+    },
+    "companies": {
+      "title": "Companies",
+      "description": "Manage company data: add, edit, and keep all information about your stages under control in a convenient table!"
+    },
+    "study": {
+      "title": "Study",
+      "description": "Level up your skills! Learn materials for your profession, take tests and grow from Junior to Senior!"
+    },
+    "coverLetter": {
+      "title": "Cover Letter",
+      "description": "Create perfect cover letters with AI, tailored to any vacancy in a couple of clicks!"
+    },
+    "calendar": {
+      "title": "Calendar",
+      "description": "Plan stages stress-free! Track interview dates and meetings with companies in a convenient calendar."
+    },
+    "resume": {
+      "title": "Resume",
+      "description": "Keep your resumes in one place and download them in a stylish PDF format for your career victories!"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "description": "Stay informed: get reminders about interviews and follow your friends' progress in real time!"
+    },
+    "messages": {
+      "title": "Messages",
+      "description": "Subscribe to friends and get inspired by their successes with real-time notifications of their career progress!"
+    }
+  },
+
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "languagePlaceholder": "Select a language",
+    "theme": "Theme",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "userNameTitle": "Username",
+    "userNamePlaceholder": "Enter your username",
+    "userNameSuccess": "Username updated!",
+    "userNameError": "Failed to update username",
+    "repeatOnboarding": "Repeat onboarding",
+    "logout": "Logout",
+    "avatarSuccess": "Avatar uploaded!",
+    "avatarError": "Failed to upload avatar",
+    "avatarChange": "Change avatar"
+  },
+
+  "statistics": {
+    "title": "Statistics",
+    "responses": "Responses",
+    "responsesWeeklyComparison": "Responses Weekly Comparison",
+    "currentWeek": "Current Week",
+    "lastWeek": "Last Week",
+    "stages": "Stages",
+    "stagesCount": "Stages Count",
+    "testsCompletion": "Tests Completion",
+    "completedTests": "Completed Tests",
+    "interviews": "HR interviews",
+    "testAssignments": "Test assignments",
+    "technicalInterviews": "Technical interviews",
+    "offers": "Offers"
+  },
+
+  "weekdays": {
+    "monday": "Mon",
+    "tuesday": "Tue",
+    "wednesday": "Wed",
+    "thursday": "Thu",
+    "friday": "Fri",
+    "saturday": "Sat",
+    "sunday": "Sun"
+  },
+
+  "companies": {
+    "title": "Companies",
+    "add": "Add company",
+    "edit": "Edit company",
+    "searchName": "Search by name",
+    "searchTelegram": "Search by Telegram",
+    "searchVacancy": "Search by vacancy name",
+    "fields": {
+      "name": "Company name",
+      "website": "Website",
+      "contactPerson": "Contact person",
+      "contactPersonTg": "Contact person (Telegram)",
+      "stage": "Stage",
+      "dateTime": "Date and time",
+      "info": "Company info",
+      "history": "History",
+      "vacancyName": "Vacancy name",
+      "vacancyLink": "Vacancy link",
+      "status": "Status",
+      "moreDetailed": "More detailed"
+    },
+    "statuses": {
+      "active": "Active",
+      "closed": "Closed"
+    },
+    "confirmDelete": {
+      "title": "Confirm delete",
+      "message": "Are you sure you want to delete the company?"
+    }
+  },
+
+  "study": {
+    "title": "Study",
+    "documentation": "Documentation",
+    "tests": "Tests",
+    "raisingLevel": "Raising the level",
+    "takeTestTopics": "Take the test on all topics",
+    "training": "Training",
+    "practiceTests": "Practice on the tests",
+    "goThroughAllMaterials": "Go through all the materials",
+    "noTopics": "There are no topics in this section",
+    "topicNotFound": "The topic was not found",
+    "topicStudied": "The topic has been studied",
+    "markStudied": "Mark as studied",
+    "markUnstudied": "Unmark",
+    "goToTest": "Go to test",
+    "documentationLink": "To the documentation",
+    "sections": "Sections"
+  },
+
+  "tests": {
+    "title": "Tests",
+    "notFound": "The test was not found",
+    "generalNotFound": "The general test has not been found or has not yet been created",
+    "questionsForming": "The questions for the test are still being formed",
+    "submit": "Send responses",
+    "retake": "Go through again",
+    "results": "Test results",
+    "score": "Evaluation",
+    "yourAnswer": "Your answer",
+    "rightAnswer": "Right answer",
+    "notPassed": "Test not passed, try again",
+    "waitToRestart": "Test is not available yet, try again in {{minutes}} minutes",
+    "answerAll": "Answer all questions",
+    "passed": "Congratulations, test passed!",
+    "submittedAt": "Submitted at"
+  },
+
+  "coverLetter": {
+    "title": "Cover Letter",
+    "generate": "Generate Cover Letter",
+    "vacancyUrl": "Vacancy URL",
+    "vacancyUrlPlaceholder": "Enter vacancy URL",
+    "uploadResume": "Upload Resume",
+    "clickOrDragPdf": "Click or drag PDF file",
+    "submit": "Generate",
+    "generatedLetter": "Generated Letter",
+    "aiAgentNotConnected": "AI agent is not connected"
+  },
+
+  "calendar": {
+    "title": "Calendar",
+    "eventDetails": "Event details",
+    "fields": {
+      "company": "Company",
+      "date": "Date"
+    }
+  },
+
+  "resume": {
+    "title": "Resume",
+    "export": "Export resume",
+    "sections": {
+      "information": "Information",
+      "position": "Position",
+      "workSchedule": "Work Schedule",
+      "employmentType": "Employment Type",
+      "contacts": "Contacts",
+      "experience": "Experience",
+      "skills": "Skills",
+      "education": "Education",
+      "about": "About"
+    },
+    "fields": {
+      "firstName": "First name",
+      "lastName": "Last name",
+      "middleName": "Middle name",
+      "birthDate": "Birth date",
+      "gender": "Gender",
+      "male": "Male",
+      "female": "Female",
+      "city": "City",
+      "position": "Position",
+      "phone": "Phone",
+      "email": "Email",
+      "photo": "Photo",
+      "telegram": "Telegram",
+      "whatsapp": "WhatsApp",
+      "linkedin": "LinkedIn",
+      "institution": "Institution",
+      "specialty": "Specialty",
+      "startYear": "Start year",
+      "endYear": "End year",
+      "degree": "Degree",
+      "startDate": "Start date",
+      "endDate": "End date",
+      "description": "Description",
+      "company": "Company",
+      "workSchedule": "Work Schedule",
+      "employmentType": "Employment Type"
+    },
+    "addExperience": "Add experience",
+    "addEducation": "Add education",
+    "workSchedules": {
+      "fullDay": "Full day",
+      "shift": "Shift",
+      "flexible": "Flexible"
+    },
+    "employmentTypes": {
+      "full": "Full",
+      "part": "Part",
+      "freelance": "Freelance"
+    },
+    "tips": {
+      "title": "Tips"
+    }
+  },
+
+  "notifications": {
+    "title": "Notifications",
+    "search": "Search notifications",
+    "filterType": "Filter by type",
+    "noNotifications": "No notifications",
+    "types": {
+      "info": "Information",
+      "success": "Success",
+      "warning": "Warning",
+      "error": "Error"
+    }
+  },
+
+  "messages": {
+    "title": "Messages",
+    "searchByName": "Search by name",
+    "subscribe": "Subscribe",
+    "unsubscribe": "Unsubscribe",
+    "guest": "Guest",
+    "noSubscriptions": "No subscriptions",
+    "levels": {
+      "junior": "Junior",
+      "middle": "Middle",
+      "senior": "Senior"
+    }
+  },
+
+  "errors": {
+    "network": "Network problem. Check your connection",
+    "unauthorized": "Session expired. Please sign in again",
+    "forbidden": "Access denied",
+    "notFound": "Not found",
+    "server": "Server error. Try again later",
+    "unknown": "Something went wrong"
+  }
+}

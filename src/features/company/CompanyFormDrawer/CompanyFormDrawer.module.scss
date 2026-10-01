@@ -1,0 +1,36 @@
+.drawer {
+  :global(.ant-drawer-body) {
+    padding: var(--space-md);
+  }
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-md);
+}
+
+.fieldLabel {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--color-text-secondary);
+}
+
+.fieldError {
+  font-size: var(--font-size-sm);
+  color: var(--color-error);
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.historyBlock {
+  margin-bottom: var(--space-md);
+}
+
+.historyList {
+  margin: 0;
+  padding-left: var(--space-md);
+}

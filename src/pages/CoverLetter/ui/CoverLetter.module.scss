@@ -1,0 +1,43 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: var(--space-lg);
+  text-align: left;
+}
+
+.form {
+  margin-top: var(--space-lg);
+}
+
+.letterContainer {
+  margin-top: var(--space-lg);
+  padding: var(--space-md);
+  background: var(--color-bg-container);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.letterText {
+  margin: 0;
+  font-size: var(--font-size-base);
+  line-height: 1.6;
+  color: var(--color-primary);
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.uploadText {
+  font-size: var(--font-size-lg);
+  text-align: center;
+  color: inherit;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: var(--space-sm);
+  }
+
+  .letterText {
+    font-size: var(--font-size-sm);
+  }
+}

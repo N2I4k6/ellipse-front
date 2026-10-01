@@ -1,0 +1,1 @@
+export { default, CompanyDeleteModal } from './CompanyDeleteModal';

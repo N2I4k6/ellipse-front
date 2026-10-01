@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.leftContent {
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.brand {
+  color: var(--color-on-primary);
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  letter-spacing: 0.1em;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}

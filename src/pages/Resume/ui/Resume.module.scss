@@ -1,0 +1,127 @@
+.container {
+  padding: var(--space-lg);
+  background: var(--color-bg-container);
+  text-align: left;
+}
+
+.loadingContainer,
+.errorContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+}
+
+.resumeCard {
+  margin-bottom: var(--space-md);
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+  margin-bottom: var(--space-md);
+}
+
+.editActions {
+  margin-top: var(--space-md);
+}
+
+.infoText {
+  line-height: 1.8;
+}
+
+.avatarButton {
+  position: relative;
+  display: inline-flex;
+  cursor: pointer;
+  border-radius: 50%;
+  overflow: hidden;
+
+  &:hover .avatarOverlay {
+    opacity: 1;
+  }
+}
+
+.avatarFallback {
+  background: var(--color-avatar-fallback);
+}
+
+.avatarOverlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.aboutSection {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: var(--space-md);
+  }
+
+  .cardHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.cardHeaderLeft {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  min-width: 0;
+}
+
+.cardTitle {
+  margin: 0 !important;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.fieldLabel {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--color-text-secondary);
+}
+
+.fieldError {
+  font-size: var(--font-size-sm);
+  color: var(--color-error);
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.repeatableItem {
+  width: 100%;
+  padding: var(--space-md);
+  margin-bottom: var(--space-md);
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.addButton {
+  margin-bottom: var(--space-md);
+}
+
+.experienceItem {
+  margin-bottom: var(--space-sm);
+  line-height: 1.6;
+}

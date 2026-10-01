@@ -1,0 +1,365 @@
+{
+  "common": {
+    "loading": "Загрузка...",
+    "error": "Ошибка",
+    "success": "Успех",
+    "warning": "Внимание",
+    "info": "Информация",
+    "retry": "Повторить",
+    "back": "Назад",
+    "next": "Далее",
+    "prev": "Предыдущий",
+    "finish": "Завершить",
+    "cancel": "Отмена",
+    "close": "Закрыть",
+    "save": "Сохранить",
+    "delete": "Удалить",
+    "edit": "Редактировать",
+    "create": "Создать",
+    "add": "Добавить",
+    "search": "Поиск",
+    "filter": "Фильтр",
+    "reset": "Сбросить",
+    "confirm": "Подтвердить",
+    "yes": "Да",
+    "no": "Нет",
+    "notSpecified": "Не указано",
+    "noData": "Нет данных",
+    "goBack": "Вернуться назад",
+    "loadingFailed": "Не удалось загрузить",
+    "present": "по настоящее время"
+  },
+
+  "nav": {
+    "statistics": "Статистика",
+    "companies": "Компании",
+    "study": "Обучение",
+    "coverLetter": "Письмо",
+    "calendar": "Календарь",
+    "resume": "Резюме",
+    "notifications": "Уведомления",
+    "messages": "Общение",
+    "settings": "Настройки",
+    "logout": "Выйти"
+  },
+
+  "auth": {
+    "email": "Email",
+    "emailPlaceholder": "Введите email",
+    "password": "Пароль",
+    "passwordPlaceholder": "Введите пароль",
+    "username": "Имя пользователя",
+    "usernamePlaceholder": "Введите имя пользователя",
+    "position": "Должность",
+    "positionPlaceholder": "Выберите должность",
+    "login": {
+      "title": "Авторизация",
+      "submit": "Войти",
+      "noAccount": "Еще нет аккаунта?",
+      "linkToRegister": "Регистрация"
+    },
+    "register": {
+      "title": "Регистрация",
+      "submit": "Зарегистрироваться",
+      "haveAccount": "Уже есть аккаунт?",
+      "linkToLogin": "Авторизация"
+    },
+    "logout": {
+      "confirm": "Вы точно хотите выйти?"
+    }
+  },
+
+  "validation": {
+    "emailInvalid": "Невалидный email",
+    "emailRequired": "Email обязательное поле",
+    "passwordRequired": "Пароль обязательное поле",
+    "passwordMin": "Пароль должен быть не менее {{min}} символов",
+    "usernameRequired": "Имя пользователя обязательно",
+    "usernameMin": "Имя пользователя должно быть не менее {{min}} символов",
+    "positionRequired": "Выберите должность",
+    "required": "Это поле обязательное",
+    "companyNameRequired": "Название компании обязательно",
+    "telegramRequired": "Телеграм контакт обязателен",
+    "stageRequired": "Этап обязателен",
+    "dateTimeRequired": "Дата и время обязательны",
+    "stageDateRequired": "Дата этапа обязательна",
+    "urlInvalid": "Невалидная ссылка",
+    "urlRequired": "Ссылка обязательна",
+    "resumeRequired": "Резюме обязательно",
+    "companyRequired": "Компания обязательна",
+    "startDateRequired": "Дата начала обязательна",
+    "startYearRequired": "Год начала обязателен",
+    "endYearRequired": "Год окончания обязателен",
+    "institutionRequired": "Учреждение обязательно",
+    "specialtyRequired": "Специальность обязательна",
+    "invalidDate": "Неверная дата",
+    "statusRequired": "Статус обязателен"
+  },
+
+  "onboarding": {
+    "welcome": {
+      "title": "Добро пожаловать в ELLIPSE",
+      "description": "Это приложение поможет Вам в поисках работы"
+    },
+    "statistics": {
+      "title": "Статистика",
+      "description": "Отслеживайте свой прогресс! Сравнивайте отклики за неделю, следите за пройденными тестами и этапами — от собеседований до офферов!"
+    },
+    "companies": {
+      "title": "Компании",
+      "description": "Управляйте данными о компаниях: добавляйте, редактируйте и держите всю информацию о ваших этапах под контролем в удобной таблице!"
+    },
+    "study": {
+      "title": "Обучение",
+      "description": "Прокачивайте навыки! Изучайте материалы по вашей профессии, проходите тесты и достигайте уровня от Junior до Senior!"
+    },
+    "coverLetter": {
+      "title": "Письмо",
+      "description": "Создавайте идеальные сопроводительные письма с помощью ИИ, адаптированные под любую вакансию за пару кликов!"
+    },
+    "calendar": {
+      "title": "Календарь",
+      "description": "Планируйте этапы без стресса! Отслеживайте даты собеседований и встречи с компаниями в удобном календаре."
+    },
+    "resume": {
+      "title": "Резюме",
+      "description": "Храните резюме в одном месте и скачивайте их в стильном PDF-формате для ваших карьерных побед!"
+    },
+    "notifications": {
+      "title": "Уведомления",
+      "description": "Будьте в курсе: получайте напоминания о собеседованиях и следите за прогрессом друзей в реальном времени!"
+    },
+    "messages": {
+      "title": "Общение",
+      "description": "Подписывайтесь на друзей и вдохновляйтесь их успехами, получая уведомления об их карьерном прогрессе!"
+    }
+  },
+
+  "settings": {
+    "title": "Настройки",
+    "language": "Язык",
+    "languagePlaceholder": "Выберите язык",
+    "theme": "Тема",
+    "themeLight": "Светлая",
+    "themeDark": "Темная",
+    "userNameTitle": "Имя пользователя",
+    "userNamePlaceholder": "Введите имя пользователя",
+    "userNameSuccess": "Имя пользователя обновлено!",
+    "userNameError": "Ошибка обновления имени",
+    "repeatOnboarding": "Повторить онбординг",
+    "logout": "Выйти",
+    "avatarSuccess": "Аватар загружен!",
+    "avatarError": "Ошибка загрузки аватара",
+    "avatarChange": "Изменить аватар"
+  },
+
+  "statistics": {
+    "title": "Статистика",
+    "responses": "Отклики",
+    "responsesWeeklyComparison": "Отклики за неделю",
+    "currentWeek": "Текущая неделя",
+    "lastWeek": "Предыдущая неделя",
+    "stages": "Этапы",
+    "stagesCount": "Количество этапов",
+    "testsCompletion": "Тестов завершено",
+    "completedTests": "Пройдено тестов",
+    "interviews": "HR-интервью",
+    "testAssignments": "Тестовые",
+    "technicalInterviews": "Технические",
+    "offers": "Офферы"
+  },
+
+  "weekdays": {
+    "monday": "Пн",
+    "tuesday": "Вт",
+    "wednesday": "Ср",
+    "thursday": "Чт",
+    "friday": "Пт",
+    "saturday": "Сб",
+    "sunday": "Вс"
+  },
+
+  "companies": {
+    "title": "Компании",
+    "add": "Добавить компанию",
+    "edit": "Редактировать компанию",
+    "searchName": "Поиск по названию",
+    "searchTelegram": "Поиск по телеграму",
+    "searchVacancy": "Поиск по названию вакансии",
+    "fields": {
+      "name": "Название компании",
+      "website": "Сайт",
+      "contactPerson": "Контактное лицо",
+      "contactPersonTg": "Контактное лицо (Telegram)",
+      "stage": "Этап",
+      "dateTime": "Дата и время",
+      "info": "Информация о компании",
+      "history": "История",
+      "vacancyName": "Название вакансии",
+      "vacancyLink": "Ссылка на вакансию",
+      "status": "Статус",
+      "moreDetailed": "Подробнее"
+    },
+    "statuses": {
+      "active": "Активна",
+      "closed": "Закрыта"
+    },
+    "confirmDelete": {
+      "title": "Подтвердите удаление",
+      "message": "Вы точно хотите удалить компанию?"
+    }
+  },
+
+  "study": {
+    "title": "Обучение",
+    "documentation": "Документация",
+    "tests": "Тесты",
+    "raisingLevel": "Повышение уровня",
+    "takeTestTopics": "Пройдите тест по всем темам",
+    "training": "Тренировка",
+    "practiceTests": "Тренируйтесь на тестах",
+    "goThroughAllMaterials": "Пройдите все материалы",
+    "noTopics": "Нет тем в этом разделе",
+    "topicNotFound": "Тема не найдена",
+    "topicStudied": "Тема изучена",
+    "markStudied": "Отметить как изученное",
+    "markUnstudied": "Снять отметку",
+    "goToTest": "К тесту",
+    "documentationLink": "К документации",
+    "sections": "Разделы"
+  },
+
+  "tests": {
+    "title": "Тесты",
+    "notFound": "Тест не найден",
+    "generalNotFound": "Общий тест не найден или ещё не создан",
+    "questionsForming": "Вопросы для теста ещё формируются",
+    "submit": "Отправить ответы",
+    "retake": "Пройти заново",
+    "results": "Результаты теста",
+    "score": "Оценка",
+    "yourAnswer": "Ваш ответ",
+    "rightAnswer": "Правильный ответ",
+    "notPassed": "Тест не пройден, попробуйте еще раз",
+    "waitToRestart": "Тест пока не доступен, попробуйте через {{minutes}} минут",
+    "answerAll": "Ответьте на все вопросы",
+    "passed": "Поздравляем, тест пройден!",
+    "submittedAt": "Отправлено"
+  },
+
+  "coverLetter": {
+    "title": "Письмо",
+    "generate": "Генерация сопроводительного письма",
+    "vacancyUrl": "Ссылка на вакансию",
+    "vacancyUrlPlaceholder": "Введите ссылку на вакансию",
+    "uploadResume": "Загрузите резюме",
+    "clickOrDragPdf": "Загрузите файл в формате pdf",
+    "submit": "Сгенерировать",
+    "generatedLetter": "Сгенерированное письмо",
+    "aiAgentNotConnected": "AI агент не подключен"
+  },
+
+  "calendar": {
+    "title": "Календарь",
+    "eventDetails": "Детали события",
+    "fields": {
+      "company": "Компания",
+      "date": "Дата"
+    }
+  },
+
+  "resume": {
+    "title": "Резюме",
+    "export": "Экспорт",
+    "sections": {
+      "information": "Информация",
+      "position": "Должность",
+      "workSchedule": "График работы",
+      "employmentType": "Тип занятости",
+      "contacts": "Контакты",
+      "experience": "Опыт работы",
+      "skills": "Навыки",
+      "education": "Образование",
+      "about": "Обо мне"
+    },
+    "fields": {
+      "firstName": "Имя",
+      "lastName": "Фамилия",
+      "middleName": "Отчество",
+      "birthDate": "Дата рождения",
+      "gender": "Пол",
+      "male": "Мужчина",
+      "female": "Женщина",
+      "city": "Город",
+      "position": "Должность",
+      "phone": "Телефон",
+      "email": "Почта",
+      "photo": "Фото",
+      "telegram": "Telegram",
+      "whatsapp": "WhatsApp",
+      "linkedin": "LinkedIn",
+      "institution": "Учреждение",
+      "specialty": "Специальность",
+      "startYear": "Год начала",
+      "endYear": "Год окончания",
+      "degree": "Степень",
+      "startDate": "Дата начала",
+      "endDate": "Дата окончания",
+      "description": "Описание",
+      "company": "Компания",
+      "workSchedule": "График работы",
+      "employmentType": "Тип занятости"
+    },
+    "addExperience": "Добавить опыт",
+    "addEducation": "Добавить образование",
+    "workSchedules": {
+      "fullDay": "Полный день",
+      "shift": "Удаленно",
+      "flexible": "Гибкий"
+    },
+    "employmentTypes": {
+      "full": "Полная",
+      "part": "Частичная",
+      "freelance": "Фриланс"
+    },
+    "tips": {
+      "title": "Подсказки"
+    }
+  },
+
+  "notifications": {
+    "title": "Уведомления",
+    "search": "Поиск уведомлений",
+    "filterType": "Фильтр по типу",
+    "noNotifications": "Нет уведомлений",
+    "types": {
+      "info": "Информация",
+      "success": "Успех",
+      "warning": "Внимание",
+      "error": "Ошибка"
+    }
+  },
+
+  "messages": {
+    "title": "Общение",
+    "searchByName": "Искать по имени",
+    "subscribe": "Подписаться",
+    "unsubscribe": "Отписаться",
+    "guest": "Гость",
+    "noSubscriptions": "Нет подписок",
+    "levels": {
+      "junior": "Junior",
+      "middle": "Middle",
+      "senior": "Senior"
+    }
+  },
+
+  "errors": {
+    "network": "Проблема с сетью. Проверьте подключение",
+    "unauthorized": "Сессия истекла. Войдите заново",
+    "forbidden": "Нет доступа",
+    "notFound": "Не найдено",
+    "server": "Ошибка сервера. Попробуйте позже",
+    "unknown": "Что-то пошло не так"
+  }
+}

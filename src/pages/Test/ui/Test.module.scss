@@ -1,0 +1,134 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-lg);
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+}
+
+.testCard {
+  padding: var(--space-lg);
+  border: 1px solid;
+  border-radius: var(--radius-md);
+  transition: all 0.3s ease;
+}
+
+.alert {
+  margin-bottom: var(--space-md);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+
+.title {
+  margin: 0 !important;
+  word-break: break-word;
+  flex: 1;
+}
+
+.backButton {
+  border: none;
+  color: var(--color-primary);
+
+  &:hover {
+    color: var(--color-primary-hover);
+  }
+}
+
+.contentBlock {
+  margin-bottom: var(--space-lg);
+  padding: var(--space-md);
+  background: var(--color-bg-container);
+  border-radius: var(--radius-md);
+}
+
+.questionCard {
+  margin-bottom: var(--space-md);
+  padding: var(--space-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.radioGroup {
+  margin-top: var(--space-sm);
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--space-md);
+}
+
+.resultsBlock {
+  margin-top: var(--space-lg);
+}
+
+.resultCard {
+  margin-bottom: var(--space-md);
+  padding: var(--space-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.resultContent {
+  width: 100%;
+}
+
+.correct {
+  color: var(--color-success);
+}
+
+.wrong {
+  color: var(--color-error);
+}
+
+.failText {
+  margin-left: var(--space-md);
+}
+
+.submittedAt {
+  display: block;
+  margin-top: var(--space-sm);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: var(--space-md);
+  }
+
+  .testCard {
+    padding: var(--space-md);
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contentBlock {
+    padding: var(--space-sm);
+  }
+
+  .questionCard,
+  .resultCard {
+    padding: var(--space-sm);
+  }
+
+  .actions {
+    flex-direction: column;
+    justify-content: center;
+
+    :global(.ant-btn) {
+      width: 100%;
+    }
+  }
+}
