@@ -348,9 +348,9 @@
     "guest": "Guest",
     "noSubscriptions": "No subscriptions",
     "levels": {
-      "junior": "Junior",
-      "middle": "Middle",
-      "senior": "Senior"
+      "Junior": "Junior",
+      "Middle": "Middle",
+      "Senior": "Senior"
     }
   },
 

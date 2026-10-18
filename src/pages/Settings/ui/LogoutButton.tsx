@@ -17,7 +17,7 @@ const LogoutButton = () => {
   return (
     <Popconfirm
       title={t("nav.logout")}
-      description={t("auth.logoutConfirm")}
+      description={t("auth.logout.confirm")}
       okText={t("common.yes")}
       cancelText={t("common.no")}
       onConfirm={handleLogout}

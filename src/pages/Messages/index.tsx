@@ -29,10 +29,10 @@ import styles from "./ui/Messages.module.scss";
 
 const { Title, Text } = Typography;
 
-const TAG_COLORS: Record<UserLevel, string> = {
-  junior: "green",
-  middle: "blue",
-  senior: "purple",
+const TAG_COLORS: Record<string, string> = {
+  Junior: "green",
+  Middle: "blue",
+  Senior: "purple",
 };
 
 const SEARCH_MIN_LENGTH = 3;
@@ -159,8 +159,7 @@ const UserSearchOption = ({
           <Text strong>{user.username ?? user.email}</Text>
           <div>
             <Text type="secondary">
-              {user.position.title} (
-              {t(`messages.levels.${user.position.level}`)})
+              {user.position.title} ({t(`messages.levels.${user.position.level}`)})
             </Text>
           </div>
         </div>
@@ -205,11 +204,11 @@ const UserCard = ({ user, loading }: UserCardProps) => {
             <Text strong>{user.username ?? user.email}</Text>
             <div>
               <Text type="secondary">
-                {user.position.title} (
-                {t(`messages.levels.${user.position.level}`)})
+                {user.position.title} ({t(`messages.levels.${user.position.level}`)})
               </Text>
             </div>
-            <Tag color={TAG_COLORS[user.position.level]}>
+            {/* Добавил .toLowerCase() для безопасности и приведения типа */}
+            <Tag color={TAG_COLORS[user.position.level.toLowerCase() as UserLevel] ?? TAG_COLORS[user.position.level]}>
               {t(`messages.levels.${user.position.level}`)}
             </Tag>
           </div>
